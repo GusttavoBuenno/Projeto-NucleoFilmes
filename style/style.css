@@ -1,0 +1,567 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+/*  variaveis */
+
+
+
+
+/* 1 estilos gerais */
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: #191919;
+    color: white;
+}
+
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+hr {
+    border: none;
+    background-color: #ff7300;
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+p{
+    
+    line-height:32px;
+    padding: 0 10px;
+}
+
+.section-titulo{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* 2 . Menu */
+.menu a:hover{
+    color: #ff7300;}
+
+.menu-bg{
+    
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;    
+    background-color: whitesmoke;
+
+}
+
+.menu{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.menu--logo{
+    
+    margin: -10px;
+    width: 200px;
+    
+
+}
+
+.nav-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ul{
+    
+    list-style-type: none;
+}
+.nav-link{
+    
+    
+    padding: 20px 10px;
+    
+}
+
+
+
+/* 3 Header */
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    
+}
+
+
+
+/* Quem Somos */
+
+.somos{
+    
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.somos-c{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.somos-c-texto{
+    
+   
+    text-align: center;           
+    font-family: 'Poppins', sans-serif;
+    flex: 10 5  460px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Nossos cursos */
+
+.cursos{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cursos-c{
+    width: auto;
+    display: flex;
+   
+    
+   
+}
+
+.curso{
+    width: 1000px;
+    margin: 0 20px;
+    
+}
+
+.curso-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align:center;
+    margin: 10px 0 20px -45px;
+}
+
+.curso-img{
+    height: 170px;       
+    transform:scale(1,1);
+    transition: 1s;    
+    
+}
+
+.curso-img:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
+
+
+/* PLANOS */
+
+.planos{
+    background-color:#191919;
+}
+
+.planos-c{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plano{
+    width: 350px;
+    margin:20px;
+    
+  
+}
+
+.plano-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.video-drone{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.drone{
+    width: 250px;
+    margin:10px;
+    
+}
+
+
+
+
+#estudiop{    
+    text-align: center;           
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    flex: 10 5  460px;
+    font-size: 1.5rem;          
+   
+    
+}
+
+/* vantagens */
+
+
+.vantagens{
+    max-width: 1960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vantagem{
+    
+    max-width: 540px;
+    margin: 10px;
+}
+
+.vantagem-titulo{
+    
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.vantagem-titulo::before{
+    content: "" ;
+    display: inline-block;
+    width: 10px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.Ola{
+    font-weight: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+.youtube-link{    
+    width: 100px;
+    text-align: center;
+}
+
+.youtube-linkk{
+    
+    display: inline-block;
+    width: 100px;
+}
+
+
+/*New Letter */
+
+.newsletter{
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.newsletter-c{
+    text-align: center;
+
+}
+
+
+.newsletter-info{
+    font-size: 32px;
+    color: whitesmoke;
+
+}
+
+.inputBox{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+fieldset{
+    
+    border: 3px solid #ff7300;
+}
+legend{
+    font-size: 22px;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    font-size: 22px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 20px;
+    color: dodgerblue;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background: #ff7300;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: #ff7300;
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+/* FOTTER */
+
+.footer{
+    font-size: 20px;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px calc((100% - 1860px) / 2 );
+    
+    
+}
+
+.footer-copyright, .footer-logo {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+
+}
+
+.logofooter{
+    max-width: 20%;
+    justify-content: center;
+}
+
+
+
+
+/* WHATSSSAP*/
+
+
+.whatssap-icon{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 40px;
+    right: 40px;
+    
+   
+   
+
+
+}
+
+.whatssap-link{
+   position: fixed;
+   width: 60;
+    
+}
+
+
+
+/* Clientes atendidos   */
+
+
+.catendidos{
+    
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
+.clientes-c{
+    max-width: 1860px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+
+.cliente{
+    width: 400px;
+}
+
+@media(max-width: 468px) {
+    
+    .cursos{
+        width: 100%;        
+        
+        
+
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .whatssap-icon{
+        width: 55px; 
+        height: 55px;
+    }
+
+    .menu-bg{
+        display: none;
+    }
+   
+}
+
+@media(max-width: 468px) {
+    
+    .cursos{
+        min-width: 170px;       
+        
+        
+
+    }
+
+    .curso-img{
+        
+        max-width: 120px;
+        min-width: 120px;
+        min-height: 10px;
+        transform: none;
+        transition: none;
+    }
+
+    .curso-titulo{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    #contato{
+        width: 100%;
+    }
+
+    .curso-titulo{
+        font-size: 15px;        
+        margin: auto;
+        
+    }
+  
+
+ }
+  
+    
+
+
+
+    
